@@ -1,0 +1,17 @@
+@media (max-width: 575.98px) {
+    html, body, main {
+        height: unset;
+    }
+    form .form-group:last-child {
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 991.98px)  { 
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }

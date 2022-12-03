@@ -1,0 +1,43 @@
+/* Adapter la taille */
+.content {
+    width: 85%;
+}
+main {
+    height: 100%;
+}
+.content div:first-child img {
+    width: 62.5%;
+    filter: drop-shadow(0 0 1.125rem #222);
+}
+.content div:last-child h3, .content div:last-child form {
+    width: 80%;
+    margin: auto;
+}
+h3.title {
+    margin-bottom: 4px;
+}
+#errPassword {
+    width: calc(80% - 16px);
+    margin: auto;
+}
+input.loginButton{
+    font-size: var(--font-size);
+    margin:1rem 0;
+}
+input:not(.loginButton) {
+    margin-top: 5px;
+}
+/* Bouton de redirection pour la connexion */
+form a {
+    text-decoration: none;
+    font-family: 'Raleway Regular', sans-serif;
+    font-weight: 300;
+    color: #777;
+    transition: color 0.25s;
+    position: relative;
+    top: 8px;
+
+}
+form a:hover {
+    color: #ccc;
+}

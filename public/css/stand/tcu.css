@@ -1,0 +1,24 @@
+div:not(#overlay) {
+    align-items: unset;
+    background: unset;
+}
+div:not(#overlay) {
+    display: block !important;
+    width: 85%;
+    margin: auto;
+    padding: 2rem 0;
+    font-size: var(--font-size);
+    text-align:justify;
+}
+div:not(#overlay)  p, div:not(#overlay) li {
+    line-height: 1.5;
+}
+div:not(#overlay)  a {
+    color: rgba(40, 100, 246, 1);
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s color;
+}
+div:not(#overlay) a:hover {
+    color: rgba(40, 100, 246, 0.55);
+}

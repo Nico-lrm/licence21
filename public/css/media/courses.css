@@ -1,0 +1,33 @@
+@media (max-width: 575.98px) {
+    form {
+        flex-direction: column;
+    }
+    #card-search {
+        width: 90%;
+        margin: auto;
+    }
+    .form-group select {
+        width:100%;
+    }
+    form div.form-group {
+        align-self: auto;
+    }
+    .form-group .loginButton {
+        width: 100%;
+    }
+    .card {
+        min-height: unset;
+    }
+    .card-body a.loginButton {
+        width: calc(100% - 23px);
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 991.98px)  { 
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }

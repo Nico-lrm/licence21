@@ -1,0 +1,29 @@
+@media (max-width: 320px) {
+    html, body, main {
+        height: unset;
+    }
+}
+@media (max-width: 575.98px) {
+    .content-2, .content-4 {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    :root {
+        --font-size: 12px !important; 
+    }
+    .content {
+        width: 90% !important;
+    }
+    h2 {
+        font-size: 2rem !important;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 991.98px)  { 
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }

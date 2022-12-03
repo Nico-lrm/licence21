@@ -1,0 +1,75 @@
+.content {
+    width: 65%;
+    margin: 3rem auto;
+    padding: 16px 32px;
+    grid-column-gap: 16px;
+}
+.content p {
+    text-align: center;
+}
+.content h3 {
+    margin:0;
+}
+.content h5 {
+    margin: 0;
+}
+.card {
+    border:0;
+    box-shadow: none;
+}
+.content h3 span {
+    color: #ccc;
+    cursor: pointer;
+    transition: 0.125s;
+}
+.content h3 span:hover {
+    color: #ddd;
+}
+iframe {
+    height: 800px;
+}
+/* Descriptif */
+#accordion {
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+}
+#accordion:hover, .active2 {
+    background: #9c82dccc;
+}
+.active {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+#panel {
+    border-top: 1px solid transparent;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    overflow: hidden;
+    padding: 0 1rem;
+    transition: all 0.4s;
+}
+#panel img {
+    position: relative;
+    height: 110px;
+    top: 70px;
+    float: right;
+    border: none;
+    vertical-align: top;
+}
+#globalAccordion {
+    background-color: #7152bfcc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
+}
+#previous {
+    font-weight: bold;
+    transition: 0.2s all;
+}
+#previous:hover {
+    font-weight: bold;
+    color: #bbb;
+}

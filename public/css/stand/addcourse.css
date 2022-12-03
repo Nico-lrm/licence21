@@ -1,0 +1,72 @@
+#file-upload-button {
+    font-size: 24px !important;
+}
+
+.btn-block {
+    width: 100%;
+}
+form {
+    width: 80%;
+    margin: auto;
+}
+.card-image {
+    max-height: unset;
+}
+form p {
+    font-size: 13px;
+    text-indent: 2px;
+    margin: 0;
+    margin-top: 4px;
+}
+img {
+  width: 62.5%;
+  filter: drop-shadow(0 0 1.125rem #222);
+  margin: auto 0 auto auto;
+}
+#file{
+    border: none;
+    padding: 8px 0;
+}
+main {
+  height: 100%;
+}
+
+/* UPLOAD */
+  progress {
+    color: var(--btn-clr);
+    border-radius: 500px;
+    background: #ddd;
+    height: 5px;
+    width: 100%;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+  }
+  
+  progress::-moz-progress-value {
+    background: var(--btn-clr);
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+  }
+  
+  progress::-moz-progress-bar {
+    background: #ddd;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+    border-radius: 5000px;
+  }
+  
+  progress::-webkit-progress-value {
+    background: var(--btn-clr);
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: #ddd;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+    border-radius: 5000px;
+  }

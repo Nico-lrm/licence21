@@ -1,0 +1,19 @@
+@media (max-width: 991.98px) { 
+    #toggle-navigation {
+        display: flex !important;
+    }
+    header ul {
+        display: none;
+    }
+    header nav a#brand {
+        font-size: 20px;
+    }
+    header nav {
+        align-items: center;
+        display: flex !important;
+        width: 90%;
+    }
+}
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 1399.98px) {  }

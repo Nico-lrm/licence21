@@ -1,0 +1,23 @@
+main {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+main p {
+    width: 65%;
+    font-size: 38px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+main p img {
+    width: 36px;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+main p span {
+    color: red;
+}

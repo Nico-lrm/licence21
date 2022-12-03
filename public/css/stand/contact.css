@@ -1,0 +1,29 @@
+.content {
+    width: 85%;
+    grid-column-gap: 150px;
+    align-items: baseline;
+    text-align: justify;
+}
+.btn-block {
+    width: 100%;
+}
+main {
+    height: 100%;
+}
+main p, main i, main li, main b {
+    line-height: 1.5;
+}
+.err {
+    display: none;
+}
+textarea {
+    resize: none;
+    font-size: var(--font-size);
+}
+#subname {
+    display: none;
+}
+input.loginButton{
+    margin-top: 0.5rem;
+    font-size: var(--font-size);
+}
